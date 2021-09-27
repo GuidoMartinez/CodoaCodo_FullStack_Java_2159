@@ -1,0 +1,41 @@
+div {
+    height: 300px;
+    width: 300px;
+    background-color: #F00;
+
+    font-size: 60px;
+
+    margin: 10px;
+    margin-left: 18px;
+    padding-top: 5px;
+    
+    box-sizing: border-box;
+
+    color: #FF0;
+    font-family: serif;
+    position: relative;
+
+}
+
+#div1 {
+    
+}
+
+#div2 {
+    background-color: #000;
+    color: #FFF;
+    left: 310px;
+    top: -310px;
+}
+
+#div3 {
+    left: 620px;
+    top: -620px;
+
+}
+
+#div4 {
+    left: 930px;
+    top: -930px;
+
+}
