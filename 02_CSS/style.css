@@ -13,29 +13,11 @@ div {
 
     color: #FF0;
     font-family: serif;
-    position: relative;
-
-}
-
-#div1 {
-    
+    display: inline-block;
 }
 
 #div2 {
     background-color: #000;
     color: #FFF;
-    left: 310px;
-    top: -310px;
-}
-
-#div3 {
-    left: 620px;
-    top: -620px;
-
-}
-
-#div4 {
-    left: 930px;
-    top: -930px;
 
 }
