@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Integrador Codo a Codo 4.0 | HTML-Bootstrap</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container-fluid">
+
+	<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nvar" > 
+     	<a class="navbar-brand" href="#"> <img src="images/codoacodo.png" alt="Codo a Codo 4.0" >
+        Conf Bs As
+	    </a>
+	
+	<div class="collapse navbar-collapse justify-content-end">
+	  	<ul class="navbar-nav mr-auto" >
+			<li class="nav-item-active"> <a class="nav-link" href="#" id="blank">La conferencia</a></li>
+			<li class="nav-item"> <a class="nav-link" href="#">Los oradores</a></li>
+			<li class="nav-item"> <a class="nav-link" href="#">El lugar y fecha</a></li>
+			<li class="nav-item"> <a class="nav-link" href="#">Conviertete en orador</a></li>
+			<li class="nav-item"> <a class="nav-link" href="#" id="tickets">Comprar tickets</a></li>
+		</ul>
+	</div>
+ 	</nav>
+	 <!-- End navbar -->
+
+
+    <!-- Image -->
+	<div class="firstImage">
+		<div class="insideImage"></div>
+		<div class="insideImage">
+			<h1>Conf Bs As</h1>
+			<p>Bs As llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que est&aacute;n creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de codo a codo y los oradores de primer nivel que tenemos para t&iacute;. Te esperamos!</p>
+			<p> <a href="#" class="btn whitebtn" >Quiero ser orador</a> <a href="#" class="btn btnComprar">Comprar tickets</a> </p>
+		</div>
+	</div>
+	<!-- End Image -->
+
+	<!-- Cards -->
+	<div class="oradores"> 
+			<span>CONOCE A LOS
+			<h3>ORADORES</h3></span> 
+	</div>
+
+	<div class="card-group cointeinerCards col-sm">
+
+		<div class="col-sm-3">
+			<div class="card">
+		  		<img src="images/steve.jpg" class="card-img-top" alt="steve">
+		  		<div class="card-body">
+					<span class="bg-warning tag text-black">Javascript</span> <span class="bg-info tag">React</span>
+					<h5 class="card-title">Steve Jobs</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		 		 </div>
+			</div>
+		</div>
+
+		<div class="col-sm-3">
+			<div class="card">
+		 		<img src="images/bill.jpg" class="card-img-top" alt="bill">
+				<div class="card-body">
+					<span class="bg-warning tag text-black">Javascript</span> <span class="bg-info tag">React</span>
+					<h5 class="card-title">Bill Gates</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		  		</div>
+			</div>
+		</div>
+
+		<div class="col-sm-3">
+			<div class="card">
+		  		<img src="images/ada.jpeg" class="card-img-top" alt="ada">
+		 		<div class="card-body">
+					<span class="bg-secondary tag">Negocios</span> <span class="bg-danger tag">Startups</span>
+					<h5 class="card-title">Ada Lovelace</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		  		</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- End cards -->
+
+
+	<!-- Carrousel -->
+
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<div class="row">
+				<div class="col-sm"> <img class="d-block w-100" src="images/honolulu.jpg" alt="Honolulu"> </div>
+				<div class="col-sm info">
+					<h3>Honolulu - Octubre</h3>
+					<p>Honolulu es la capital y localidad más grande del estado de Hawái, en los Estados Unidos.</p>
+					<p>Honolulu es la más sureña de entre las principales ciudades estadounidenses.</p>
+					<p>Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).</p>
+					<br>
+					<a href="#" class="btn whitebtn">Conoc&eacute; m&aacute;s</a> </div>
+			</div>
+		  </div>
+
+		  <div class="carousel-item">
+			<div class="row">
+				<div class="col-sm"> <img class="d-block w-100" src="images/ba2.jpg" alt="Buenos Aires 2"> </div>
+				<div class="col-sm info">
+					<h3>Buenos Aires - Octubre</h3>
+					<p>Honolulu es la capital y localidad más grande del estado de Hawái, en los Estados Unidos.</p>
+					<p>Honolulu es la más sureña de entre las principales ciudades estadounidenses.</p>
+					<p>Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).</p>
+					<br>
+					<a href="#" class="btn whitebtn">Conoc&eacute; m&aacute;s</a> </div>
+			</div>
+		  </div>
+
+		<div class="carousel-item">
+			<div class="row">
+				<div class="col-sm"> <img class="d-block w-100" src="images/ba3.jpg" alt="Buenos Aires 3"> </div>
+				<div class="col-sm info">
+					<h3>Hawaii - Octubre</h3>
+					<p>Honolulu es la capital y localidad más grande del estado de Hawái, en los Estados Unidos.</p>
+					<p>Honolulu es la más sureña de entre las principales ciudades estadounidenses.</p>
+					<p>Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).</p>
+					<br>
+					<a href="#" class="btn whitebtn">Conoc&eacute; m&aacute;s</a> </div>
+			</div>
+		  </div>
+		
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		  </button>
+	  	</div>
+	</div>
+
+	  <!-- End Carrousel -->
+
+	  <!-- Form -->
+
+		<div class="oradores"> 
+			<span>Convi&eacute;rtete en 
+			<h3>ORADOR</h3></span> 
+		</div>
+
+		<div class="formContainer">
+
+		<div class="row">
+			<form id="oradorForm" class="col-sm" method="post">
+				<p class="titForm">An&oacute;tate como orador para dar una <span class="ignite">charla ignite</span>. Cu&eacute;ntanos de que quieres hablar!</p>
+				<div class="row">
+					<div class="col-sm">
+						<input type="text" name="name" placeholder="Nombre" required>
+					</div>
+					<div class="col-sm">
+						<input type="text" name="lastname" placeholder="Apellido" required>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm">
+						<textarea name="details" placeholder="Sobre qu&eacute; quieres hablar?" required></textarea>
+					</div>
+				</div>
+				<p class="reminder">Recuerda incluir un t&iacute;tulo para tu charla</p>
+				<div class="d-grid gap-2">
+					<button class="btn btngreen" type="submit">Enviar</button>
+				  </div>
+			</form>
+		</div>
+
+		</div>
+
+		<!-- End form -->
+
+		<!-- footer -->
+
+		<footer class="text-center text-lg-start text-muted">	
+		<nav class="navbar navbar-expand-lg">
+
+			<div>
+			<ul class="nav justify-content-center">
+				<li class="nav-item">
+				  <a class="nav-link active" id="blank" aria-current="page" href="#">Preguntas Frecuentes</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" id="blank" href="#">Contactanos</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" id="blank" href="#">Prensa</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" id="blank" href="#">Conferencias</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="blank" href="#">Terminos y Condiciones</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="blank" href="#">Privacidad</a>
+				</li>
+			 	<li class="nav-item">
+					<a class="nav-link" id="blank" href="#">Estudiantes</a>
+				</li>
+			</ul>
+			</div>
+		</nav>
+		</footer>
+
+
+    </div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+    </body>
+</html>

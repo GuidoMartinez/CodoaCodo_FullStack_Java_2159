@@ -1,0 +1,168 @@
+
+.nvar  {
+	margin: 0%;
+	padding: 0%;
+	line-height: 60px;
+
+}
+
+#blank {
+    color: #fff;
+}
+
+
+#tickets {
+	color: #20a740;
+}
+
+
+/* image */
+.firstImage{
+	height: 85vh;
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+	  ),  url('../images/ba1.jpg') ;
+	background-position: center;
+	background-size: cover;
+	justify-content: space-evenly;
+	position: relative;
+	display: flex;
+}
+
+.insideImage {
+    position: relative;
+    color: #fff;
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    font-size: 1em;
+}
+
+.insideImage a{
+	margin: 0px 5px;
+	color: #fff;
+
+}
+
+.whitebtn {
+	border: 1px solid #94918d;
+	color: #fff;
+}
+
+.btnComprar {
+	background-color: #25a63f;
+}
+
+.whitebtn:hover {
+	border-color: transparent;
+	background-color: #25a63f;
+	color: #fff;
+}
+
+
+/* cards*/
+
+.oradores {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+.cointeinerCards{
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.col-sm-3 {
+	margin: 1%;
+	margin-top: 0;
+}
+.card{
+	min-width: 327px;
+	max-width: 327px;
+	margin-bottom: 10px;
+}
+
+.card img{
+	height: 327px;
+	width: 327px;
+	align-self: center;
+}
+p.card-text {
+    font-size: 0.8em;
+}
+
+.tag {
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 0.7em;
+	color: #fff;
+	padding: 1% 2%;
+}
+
+/* Carousel */
+
+.carousel-item {
+	width: 100%;
+}
+
+.info {
+	background-color: #353a40;
+	color: #fff;
+	padding: 20px;
+	font-size: 0.7em;
+}
+
+/* Form */
+
+.formContainer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 20px;
+	font-size: 	1.2em;
+}
+
+.formContainer form input{
+	width: 100%;
+}
+.formContainer form textarea{
+	width: 	100%;
+	margin: 10px 0;
+}
+.formContainer p.reminder{
+	color: #94918d;
+	font-size: 0.7em;
+}
+
+.formContainer span.ignite {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.formContainer .btngreen{
+	background-color: #96c93e;
+	color: #fff;
+
+}
+
+
+/* footer */
+
+footer div{
+	width: 100%;
+}
+footer nav{
+	background: linear-gradient(90deg, rgba(26,54,68,1) 0%, rgba(29,80,109,1) 100%);
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 0.9em;
+	font-weight: 600;
+	line-height: 60px;
+}
